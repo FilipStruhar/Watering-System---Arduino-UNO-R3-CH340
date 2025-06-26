@@ -6,10 +6,6 @@ const int relayPin = 7;          // Digitální pin pro relé (IN)
 
 const int dryThreshold = 600;    // Mezní hodnota — vyšší = sušší půda
 
-
-// put function declarations here:
-int myFunction(int, int);
-
 void setup() {
   Serial.begin(9600);
 
